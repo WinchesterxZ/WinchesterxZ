@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" role="img" aria-labelledby="title desc">
+<title id="title">Ahmed Emad — WinchesterxZ</title>
+<desc id="desc">Cybersecurity and mobile development. An orbital signal diagram accompanies the words Build with care. Test with curiosity.</desc>
+<defs>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#293d54" stroke-width=".6" opacity=".32"/></pattern>
+ <linearGradient id="edge"><stop stop-color="#62e4df"/><stop offset=".6" stop-color="#b7a1ff"/><stop offset="1" stop-color="#eeb482"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#62e4df" stop-opacity=".11"/><stop offset="1" stop-color="#62e4df" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif}
+ .mono{font-family:'Courier New',monospace;letter-spacing:2px}
+ .orbit{animation:orbit 32s linear infinite}
+ .trace{animation:trace 16s linear infinite}
+ @keyframes orbit{to{transform:rotate(360deg)}}
+ @keyframes trace{to{stroke-dashoffset:-160}}
+ @media(prefers-reduced-motion:reduce){.orbit,.trace{animation:none}}
+</style>
+<rect x="1" y="1" width="478" height="418" rx="18" fill="#0b101b" stroke="#293d54"/>
+<rect x="1" y="1" width="478" height="418" rx="18" fill="url(#grid)"/>
+<path d="M28 1H452" stroke="url(#edge)" stroke-width="2"/>
+<path d="M24 48V24H48 M432 396H456V372" fill="none" stroke="#62e4df" stroke-opacity=".6"/>
+<g transform="translate(374 330) scale(0.58)" aria-hidden="true">
+ <circle r="180" fill="url(#halo)"/>
+ <path d="M-156 0H156 M0-156V156" stroke="#293d54" stroke-dasharray="2 8"/>
+ <circle r="137" fill="none" stroke="#293d54"/>
+ <circle r="114" fill="none" stroke="#62e4df" stroke-opacity=".5" stroke-dasharray="2 11"/>
+ <circle r="91" fill="#101a2a" stroke="#293d54"/>
+ <g class="orbit"><path d="M0-137A137 137 0 0 1 137 0" fill="none" stroke="#62e4df" stroke-width="2"/><circle cy="-137" r="4" fill="#62e4df"/><circle cy="137" r="3" fill="#b7a1ff"/></g>
+ <path d="M-54-32L-28 39 0-14 28 39 54-32 M-36-32L-17 12 M36-32L17 12" fill="none" stroke="url(#edge)" stroke-width="4" stroke-linejoin="bevel"/>
+ <path d="M-51 65H51" stroke="#293d54"/>
+ <text y="80" text-anchor="middle" font-size="9" fill="#a5b6cf" class="mono">WX / SIGNAL</text>
+ <path class="trace" d="M-162 102H-116L-95 81 M91-87L115-111H160" stroke="#b7a1ff" stroke-dasharray="16 8" fill="none"/>
+ <path d="M-7-153H7 M-7 153H7 M-153-7V7 M153-7V7" stroke="#eeb482" stroke-width="2"/>
+</g>
+<text x="32" y="56" fill="#62e4df" font-size="13" class="mono">WINCHESTERXZ / PERSONAL LOG</text>
+<text x="30" y="128" fill="#f0f5ff" font-weight="750" font-size="49" letter-spacing="-2">AHMED EMAD<tspan fill="#eeb482">.</tspan></text>
+<text x="32" y="166" fill="#a5b6cf" font-size="16">Cybersecurity &amp; mobile development</text>
+<path d="M32 190H144" stroke="url(#edge)" stroke-width="2"/>
+<text x="32" y="231" fill="#f0f5ff" font-size="21">Build with care.</text>
+<text x="32" y="261" fill="#f0f5ff" font-size="21">Test with curiosity.</text>
+<text x="32" y="379" fill="#a5b6cf" font-size="12" class="mono">BUILD / TRACE / UNDERSTAND</text>
+</svg>
